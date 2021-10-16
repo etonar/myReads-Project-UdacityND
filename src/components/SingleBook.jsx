@@ -1,6 +1,6 @@
 import React from "react";
 import * as BooksAPI from "../BooksAPI";
-import defaultCover from "../../public/icons/default_book_cover.jpg";
+import defaultCover from "../icons/default_book_cover.jpg";
 
 const SingleBook = ({ book }) => {
   const updateShelfs = (book, shelf) => {
