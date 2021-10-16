@@ -10,6 +10,7 @@ const SingleBook = ({ book }) => {
   const { title, authors = [], imageLinks = {} } = book;
 
   const bookTitle = title ? title : "No Title!";
+  const bookAuthor = authors ? authors : "No Author!";
   const bookCover =
     imageLinks && imageLinks.smallThumbnail
       ? imageLinks.smallThumbnail
@@ -43,7 +44,7 @@ const SingleBook = ({ book }) => {
           </div>
         </div>
         <div className="book-title">{bookTitle}</div>
-        <div className="book-authors">{[...authors].join(", \n")}</div>
+        <div className="book-authors">{[...bookAuthor].join(", \n")}</div>
       </div>
     </li>
   );
