@@ -10,7 +10,7 @@ const SingleBook = ({ book }) => {
   const { title, authors = [], imageLinks = {} } = book;
 
   const bookTitle = title ? title : "No Title!";
-  const bookAuthor = authors ? authors : "No Author!";
+  const bookAuthor = authors ? authors : ["No Author!"];
   const bookCover =
     imageLinks && imageLinks.smallThumbnail
       ? imageLinks.smallThumbnail
