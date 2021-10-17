@@ -32,8 +32,9 @@ const SingleBook = ({ book }) => {
               onChange={(e) => {
                 updateShelfs(book, e.target.value);
               }}
+              value={book.shelf}
             >
-              <option value="move" disabled selected>
+              <option value="move" disabled>
                 Move to...
               </option>
               <option value="currentlyReading">Currently Reading</option>
