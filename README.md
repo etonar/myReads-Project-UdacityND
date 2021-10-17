@@ -5,27 +5,6 @@
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
 
-## Structure
-```bash
-├── README.md - This file.
-├── SEARCH_TERMS.md # The whitelisted short collection of available search terms for you to use with your app.
-├── public
-│   ├── favicon.ico # React Icon
-│   └── index.html # DO NOT MODIFY
-└── src
-    ├── App.css # Styles. 
-    ├── App.js # This is the root of your app. Contains static HTML right now.
-    ├── App.test.js # Used for testing. Provided with Create React App. 
-    ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
-    ├── icons 
-    │   ├── add.svg
-    │   ├── arrow-back.svg
-    │   └── arrow-drop-down.svg
-    ├── index.css # Global styles. 
-    └── index.js # It is used for DOM rendering only.
-```
-
-
 ## Backend Server
 
 The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods to perform necessary operations on the backend:
