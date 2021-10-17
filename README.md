@@ -7,7 +7,11 @@
 
 ## About The App
 
-This is my implementation of the MyReads app, it's the first project for the Udacity's React course, part of the React Nanodegree Program. MyReads is a bookshelf app that allows the user to select and categorize books they have read, are currently reading, or want to read.
+This is my implementation of the MyReads app, it's the first project for the Udacity's React course, part of the React Nanodegree Program. MyReads is a bookshelf app that allows the user to select and categorize books they have :
+
+- read,
+- currently reading,
+- or want to read.
 
 ## Technologies
 
