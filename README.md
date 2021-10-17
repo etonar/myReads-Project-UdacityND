@@ -16,7 +16,7 @@
 ### Client Side
 
 - HTML, CSS
-- ES6
+- ES6 (modules, promises, async/await ...)
 - React
 
 ## Backend Server
