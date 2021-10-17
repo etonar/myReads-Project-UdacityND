@@ -26,8 +26,12 @@ const App = () => {
   };
 
   const searchBooks = async (query) => {
-    const searchedBooks = await BooksAPI.search(query);
+    let searchedBooks = await BooksAPI.search(query);
     if (Array.isArray(searchedBooks)) {
+      searchedBooks = searchedBooks.map((book) => {
+        const bookInList = books.find((b) => b.id === book.id);
+        return bookInList ? bookInList : { ...book, shelf: "none" };
+      });
       setSearchedBooks(searchedBooks);
     } else {
       setSearchedBooks([]);
